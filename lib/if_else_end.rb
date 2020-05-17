@@ -1,7 +1,6 @@
-current_time =  Time.now.to_s
-p current_time
-if current_time % 2 == 0
+
+if Time.now.to_s % 2 == 0
     puts "Even!"
-elsif current_time % 2 != 0
+elsif Time.now.to_se % 2 != 0
     puts "Odd!"
 end
