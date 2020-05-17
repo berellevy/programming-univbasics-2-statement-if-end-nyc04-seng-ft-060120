@@ -1,2 +1,3 @@
-this_year = 2019
-puts "hey its not 2019!" unless Time.now.year == 2019
+current_time =  Time.now.to_s
+if current_time % 2 == 0
+    
